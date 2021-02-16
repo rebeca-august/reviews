@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import people from './data'
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa'
 
-const randomIntFromInterval = (min, max) => {
+const randomIntFromInterval = (min: number, max: number) => {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
